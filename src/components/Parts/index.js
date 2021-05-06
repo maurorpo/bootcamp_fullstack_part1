@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Part = ({part, numberExersices} = this.props) => {
+const Part = ({part} = this.props) => {
   return(
     <div className="item-part">
-      <h4>{part} <small>{numberExersices}</small></h4>
+      <h4>{part.name} <small>{part.exercises}</small></h4>
     </div>
   )
 }
